@@ -1,4 +1,4 @@
-FROM nginix
+FROM nginx
 WORKDIR  /usr/doctry
 COPY ./index.html  /usr/doctry
 EXPOSE 80
