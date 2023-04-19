@@ -1,5 +1,5 @@
 FROM nginx
-WORKDIR  /usr/doctry
-COPY ./index.html  /usr/doctry
+WORKDIR  /usr/doc
+COPY ./index.html /usr/doc
 EXPOSE 80
-CMD ["nginx","-g","daemon off"]
+CMD ["nginx","-g","daemon off;"]
