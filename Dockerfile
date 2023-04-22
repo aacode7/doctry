@@ -1,5 +1,4 @@
 FROM nginx
-WORKDIR  /usr/doc
-COPY ./index.html /usr/doc
+COPY ./index.html /usr/doc/html
 EXPOSE 80
 CMD ["nginx","-g","daemon off;"]
